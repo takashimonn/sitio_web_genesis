@@ -1,0 +1,83 @@
+@keyframes fadeIn 
+  from 
+    opacity: 0 /* Establece la opacidad inicial en 0 */
+  
+  to 
+    opacity: 1 /* Establece la opacidad final en 1 */
+
+.img_principal
+    width: 94.9rem
+    height: 35rem
+    animation: fadeIn 3s ease forwards
+    position: relative 
+    z-index: -1 
+
+.datos_empresa
+    margin-left: 3rem
+    margin-top: 2rem
+    position: relative
+
+.titulo
+    font-family: Arial, Helvetica, sans-serif
+    margin-left: 4rem
+    margin-top: 7rem
+    display: flex
+    color: black
+
+.descripcion_empresa
+    margin-top: 1rem
+    margin-left: 4rem
+    text-decoration: none
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: normal
+    display: flex
+
+.otra_imagen 
+    position: absolute 
+    top: 50% 
+    left: 50% 
+    transform: translate(-50%, -50%) 
+    width: 25rem 
+    height: 15rem 
+    z-index: 1 
+
+.h2_mision
+    margin-left: 5rem
+    margin-top: 7rem
+
+.p_mision 
+    margin-left: 6rem
+    white-space: pre-line 
+.h2_vision
+    margin-left: 5rem
+    margin-top: 7rem
+
+.p_vision
+    margin-left: 6rem
+    white-space: pre-line
+
+.cow_mon2
+    width: 30rem
+    height: 15rem
+    position: absolute
+    left: 55rem
+    top: 20rem
+
+.btn_download
+    width: 30rem
+    height: 5rem
+    border-radius: 1rem
+    background-color: green
+    left: 55rem
+    top: 38rem
+    border: none
+    position: absolute
+    transition: color 0.3s ease
+    &:hover 
+        background-color: black 
+
+.p_download
+    color: white
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 1.5rem
+
